@@ -1,0 +1,121 @@
+.form-container{
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+select{
+    width: 170px;
+    padding: 5px;
+}
+
+.form-container input, select, textarea{
+    margin-left: 15px;
+}
+
+.btn {
+    display: inline-block;
+    width: 60%;
+    padding: 5px;
+    margin-left: 30%;
+}
+
+.btn-primary{
+    background-color: slategrey;
+    color: white;
+    border:1px solid rgb(58, 57, 57);
+}
+
+.btn-primary:hover {
+    background-color: lightslategray;
+}
+.girdi-hata{
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+}
+@media screeen and (max-width:400px){
+    .form-group{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    label{
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
